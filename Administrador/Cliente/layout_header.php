@@ -755,41 +755,46 @@
     </a>
 
     <div class="sb-lbl">Operatividad</div>
+
     <a href="../Venta/index.php" class="ni <?php echo (isset($page_id) && $page_id == 'ventas') ? 'act' : ''; ?>">
       <i class="fas fa-dollar-sign"></i><span>Ventas</span>
     </a>
-    <a href="#" class="ni">
+
+    <a href="../pedidosclientes/index.php" class="ni <?php echo (isset($page_id) && $page_id == 'pedidos_clientes') ? 'act' : ''; ?>">
       <i class="fas fa-box"></i><span>Pedidos de clientes</span>
     </a>
 
-    <a href="#" class="ni">
+    <a href="../pedidosproveedores/index.php" class="ni <?php echo (isset($page_id) && $page_id == 'ped_proveedores') ? 'act' : ''; ?>">
       <i class="fas fa-truck-loading"></i><span>Pedidos a proveedores</span>
     </a>
 
-    <a href="#" class="ni">
+    <a href="../registroproveedores/index.php" class="ni <?php echo (isset($page_id) && $page_id == 'reg_proveedores') ? 'act' : ''; ?>">
       <i class="fas fa-clipboard-list"></i><span>Registro proveedores</span>
     </a>
 
-    <a href="#" class="ni">
+    <a href="../validacionpago/index.php" class="ni <?php echo (isset($page_id) && $page_id == 'val_pago') ? 'act' : ''; ?>">
       <i class="fas fa-money-check-dollar"></i><span>Validación de pago</span>
     </a>
 
     <div class="sb-lbl">Catálogos</div>
+
     <a href="../Cliente/index.php" class="ni <?php echo (isset($page_id) && $page_id == 'clientes') ? 'act' : ''; ?>">
       <i class="fas fa-users"></i><span>Clientes</span>
     </a>
+
     <a href="../prenda/index.php" class="ni <?php echo (isset($page_id) && $page_id == 'prendas') ? 'act' : ''; ?>">
-      <i class="fas fa-tshirt"></i><span>Prendas</span>
+      <i class="fas fa-shirt"></i><span>Prendas</span>
     </a>
-    <a href="#" class="ni">
+
+    <a href="../productos/index.php" class="ni <?php echo (isset($page_id) && $page_id == 'productos') ? 'act' : ''; ?>">
       <i class="fas fa-box-open"></i><span>Productos</span>
     </a>
 
-    <a href="#" class="ni">
+    <a href="../usuarios/index.php" class="ni <?php echo (isset($page_id) && $page_id == 'usuarios') ? 'act' : ''; ?>">
       <i class="fas fa-user-gear"></i><span>Usuarios</span>
     </a>
 
-    <a href="#" class="ni">
+    <a href="../inventario/index.php" class="ni <?php echo (isset($page_id) && $page_id == 'inventario') ? 'act' : ''; ?>">
       <i class="fas fa-warehouse"></i><span>Inventario</span>
     </a>
 

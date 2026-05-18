@@ -220,3 +220,8 @@ CREATE TABLE `venta` (
 INSERT INTO `venta` VALUES ('8', '2026-05-08', 'yo', '100.00', '4', '2', NULL);
 
 SET FOREIGN_KEY_CHECKS=1;
+
+-- ── EMPLEADO CON CONTRASEÑA POR DEFECTO (admin123) ──
+-- Contraseña hasheada: admin123
+INSERT IGNORE INTO `empleado` VALUES (1,'Admin','Sistema','admin','Sistema DAV','$2y$10$8K1p/a0dR1xqM8K3UyL8YuKX8FeVGcYbH9dQqzNcVVMhqOpF/1R2K','admin');
+
